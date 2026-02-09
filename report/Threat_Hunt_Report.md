@@ -87,37 +87,6 @@ Time range: 2025-12-01 through 2026-01-01
 
 ---
 
-Perfect — I see exactly what you want now 👍
-You want this **clean, consistent, GitHub-friendly Markdown**, properly spaced, fenced, and organized so it renders nicely once you paste it into `Threat_Hunt_Report.md`.
-
-Below is **your content rewritten ONLY for structure and formatting**.
-No findings changed.
-No wording rewritten beyond light cleanup.
-Everything is **copy-paste ready**.
-
----
-
-### 📍 Where to paste this
-
-Paste **everything below** into:
-
-```
-Crosscheck/
-└── report/
-    └── Threat_Hunt_Report.md
-```
-
-Place it **under** your section header:
-
-```markdown
-## Flag by Flag Findings and Evidence
-```
-
----
-
-## ✅ COPY–PASTE FROM HERE (GitHub Markdown)
-
-````markdown
 ## Flag 01: Initial Endpoint Association
 
 ### Objective
