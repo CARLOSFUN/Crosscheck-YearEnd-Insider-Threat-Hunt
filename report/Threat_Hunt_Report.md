@@ -78,7 +78,7 @@ DeviceProcessEvents
 
 **Screenshot:**
 
-![Flag 01 - Initial Endpoint Association](screenshots/flag01.png)
+![Flag 01 - Initial Endpoint Association](Crosscheck-YearEnd-Insider-Threat-Hunt/screenshots/flag01.png)
 
 ---
 
@@ -103,7 +103,7 @@ DeviceProcessEvents
 
 **Screenshot:**
 
-![Flag 02 - Remote Session Source Attribution](screenshots/flag02.png)
+![Flag 02 - Remote Session Source Attribution](Crosscheck-YearEnd-Insider-Threat-Hunt/screenshots/flag02.png)
 
 ---
 
@@ -126,7 +126,7 @@ DeviceProcessEvents
 
 **Screenshot:**
 
-![Flag 03 - Support-Themed Script Execution](screenshots/flag03.png)
+![Flag 03 - Support-Themed Script Execution](Crosscheck-YearEnd-Insider-Threat-Hunt/screenshots/flag03.png)
 
 ---
 
@@ -148,7 +148,7 @@ DeviceProcessEvents
 
 **Screenshot:**
 
-![Flag 04 - Reconnaissance Activity](screenshots/flag04.png)
+![Flag 04 - Reconnaissance Activity](Crosscheck-YearEnd-Insider-Threat-Hunt/screenshots/flag04.png)
 
 ---
 
@@ -170,7 +170,7 @@ DeviceFileEvents
 
 **Screenshot:**
 
-![Flag 05 - Sensitive Bonus File Discovery](screenshots/flag05.png)
+![Flag 05 - Sensitive Bonus File Discovery](Crosscheck-YearEnd-Insider-Threat-Hunt/screenshots/flag05.png)
 
 ---
 
@@ -192,7 +192,7 @@ DeviceFileEvents
 
 **Screenshot:**
 
-![Flag 06 - Data Staging via Archive Creation](screenshots/flag06.png)
+![Flag 06 - Data Staging via Archive Creation](Crosscheck-YearEnd-Insider-Threat-Hunt/screenshots/flag06.png)
 
 ---
 
@@ -214,7 +214,7 @@ DeviceNetworkEvents
 
 **Screenshot:**
 
-![Flag 07 - Outbound Connectivity Test](screenshots/flag07.png)
+![Flag 07 - Outbound Connectivity Test](Crosscheck-YearEnd-Insider-Threat-Hunt/screenshots/flag07.png)
 
 ---
 
@@ -235,7 +235,7 @@ DeviceRegistryEvents
 
 **Screenshot:**
 
-![Flag 08 - Registry-Based Persistence](screenshots/flag08.png)
+![Flag 08 - Registry-Based Persistence](Crosscheck-YearEnd-Insider-Threat-Hunt/screenshots/flag08.png)
 
 ---
 
@@ -256,7 +256,7 @@ DeviceProcessEvents
 
 **Screenshot:**
 
-![Flag 09 - Scheduled Task Persistence](screenshots/flag09.png)
+![Flag 09 - Scheduled Task Persistence](Crosscheck-YearEnd-Insider-Threat-Hunt/screenshots/flag09.png)
 
 ---
 
