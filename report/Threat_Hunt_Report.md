@@ -118,6 +118,7 @@ DeviceProcessEvents
 DeviceProcessEvents
 | where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-04))
 | where DeviceName == "sys1-dept"
+| where AccountName contains "5y51-d3p7"
 | where FileName in~ ("powershell.exe","pwsh.exe")
 | where ProcessCommandLine has ".ps1"
 | project Timestamp, DeviceName, AccountName, ProcessCommandLine
