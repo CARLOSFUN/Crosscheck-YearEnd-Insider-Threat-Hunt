@@ -249,7 +249,7 @@ DeviceRegistryEvents
 **KQL:**
 ```kql
 DeviceProcessEvents
-| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-04))
+| where Timestamp between (datetime(2025-12-03) .. datetime(2025-12-04))
 | where ProcessCommandLine has "schtasks"
 | project Timestamp, DeviceName, ProcessCommandLine
 | order by Timestamp asc
