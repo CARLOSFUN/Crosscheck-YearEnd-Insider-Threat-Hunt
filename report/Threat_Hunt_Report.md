@@ -349,12 +349,12 @@ DeviceProcessEvents
 
 **KQL:**
 ```kql
-DeviceFileEvents
+DeviceEvents
 | where Timestamp between (datetime(2025-12-03T07:20:00Z) .. datetime(2025-12-03T07:30:00Z))
 | where DeviceName == "sys1-dept"
-| where FileName has "BonusMatrix"
+| where FileName has "Approved"
 | project Timestamp, FileName, FolderPath,
-         InitiatingProcessRemoteSessionDeviceName
+         InitiatingProcessRemoteSessionDeviceName, DeviceName
 | order by Timestamp asc
 ```
 
