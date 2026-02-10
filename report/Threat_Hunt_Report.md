@@ -301,9 +301,9 @@ This activity suggests lateral exposure of compensation data across multiple dep
 **KQL:**
 ```kql
 DeviceFileEvents
-| where Timestamp between (datetime(2025-12-03) .. datetime(2025-12-04))
+| where Timestamp between (datetime(2025-12-03) .. datetime(2025-12-10))
 | where DeviceName == "sys1-dept"
-| where FileName has "Bonus"
+| where FileName has ".zip"
 | project Timestamp, FileName,
          InitiatingProcessRemoteSessionDeviceName
 | order by Timestamp asc
