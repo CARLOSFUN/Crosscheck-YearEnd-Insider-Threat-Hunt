@@ -228,8 +228,8 @@ DeviceNetworkEvents
 **KQL:**
 ```kql
 DeviceRegistryEvents
-| where Timestamp between (datetime(2025-12-01) .. datetime(2025-12-04))
-| where RegistryKey has "CurrentVersion\Run"
+| where Timestamp between (datetime(2025-12-03) .. datetime(2025-12-04))
+| where RegistryKey has "CurrentVersion\\Run"
 | project Timestamp, RegistryKey, RegistryValueName, RegistryValueData
 | order by Timestamp asc
 ```
