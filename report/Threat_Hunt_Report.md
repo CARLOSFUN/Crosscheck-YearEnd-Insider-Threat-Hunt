@@ -206,7 +206,7 @@ DeviceFileEvents
 **KQL:**
 ```kql
 DeviceNetworkEvents
-| where TimeGenerated between (datetime(2025-12-01) .. datetime(2025-12-04))
+| where TimeGenerated between (datetime(2025-12-03) .. datetime(2025-12-04))
 | where DeviceName == "sys1-dept"
 | where InitiatingProcessFileName in~ ("powershell.exe","pwsh.exe")
 | project TimeGenerated, RemoteIP, RemoteUrl, InitiatingProcessCommandLine
