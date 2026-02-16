@@ -445,11 +445,11 @@ DeviceProcessEvents
 **KQL:**
 ```kql
 DeviceProcessEvents
-| where Timestamp between (datetime(2025-12-04) .. datetime(2025-12-05))
-| where DeviceName != "sys1-dept"
-| where ProcessCommandLine has_any ("Bonus", "Review")
-| project Timestamp, DeviceName, ProcessCommandLine
-| order by Timestamp asc
+| where Timestamp between (datetime(2025-12-03) .. datetime(2026-01-04))
+| where IsProcessRemoteSession == true
+| where ProcessRemoteSessionIP == "192.168.0.110"
+| summarize FirstSeen=min(Timestamp), LastSeen=max(Timestamp), EventCount=count() by DeviceName, ProcessRemoteSessionDeviceName, AccountName
+| order by FirstSeen asc
 ```
 
 **Screenshot:**
