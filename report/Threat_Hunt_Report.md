@@ -471,9 +471,7 @@ DeviceProcessEvents
 DeviceProcessEvents
 | where Timestamp between (datetime(2025-12-04T03:00:00Z) .. datetime(2025-12-04T03:30:00Z))
 | where DeviceName == "main1-srvr"
-| where ProcessCommandLine has "Bonus"
-| project Timestamp, DeviceName, ProcessCommandLine
-| order by Timestamp asc
+| project TimeGenerated, DeviceName, ProcessCommandLine, ProcessCreationTime, InitiatingProcessRemoteSessionDeviceName, InitiatingProcessRemoteSessionIP
 ```
 
 **Screenshot:**
