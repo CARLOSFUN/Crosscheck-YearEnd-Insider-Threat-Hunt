@@ -490,12 +490,14 @@ DeviceProcessEvents
 
 **KQL:**
 ```kql
-DeviceFileEvents
-| where Timestamp between (datetime(2025-12-04) .. datetime(2025-12-05))
+DeviceProcessEvents
+| where Timestamp between (datetime(2025-12-04) .. datetime(2025-12-06))
 | where DeviceName == "main1-srvr"
-| where FileName has "Scorecard"
-| project Timestamp, FileName,
-         InitiatingProcessRemoteSessionDeviceName
+| where ProcessCommandLine has_any ("scorecard", "Scorecard", "review", "Review", "performance", "Performance")
+| where IsProcessRemoteSession == true or IsInitiatingProcessRemoteSession == true
+| project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine,
+          ProcessRemoteSessionDeviceName, ProcessRemoteSessionIP,
+          InitiatingProcessRemoteSessionDeviceName, InitiatingProcessRemoteSessionIP
 | order by Timestamp asc
 ```
 
