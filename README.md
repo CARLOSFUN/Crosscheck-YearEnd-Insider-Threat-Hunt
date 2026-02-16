@@ -18,15 +18,15 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [What's Inside](#whats-inside)
-- [Investigation Summary](#investigation-summary)
-- [Key Findings](#key-findings)
-- [MITRE ATT&CK Coverage](#mitre-attck-coverage)
-- [Detection Rules](#detection-rules)
-- [Repository Structure](#repository-structure)
-- [Skills Demonstrated](#skills-demonstrated)
-- [Disclaimer](#disclaimer)
+- [Overview](#-overview)
+- [What's Inside](#-whats-inside)
+- [Investigation Summary](#-investigation-summary)
+- [Key Findings](#-key-findings)
+- [MITRE ATT&CK Coverage](#-mitre-attck-coverage)
+- [Detection Rules](#-detection-rules)
+- [Repository Structure](#-repository-structure)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Disclaimer](#-disclaimer)
 
 ---
 
