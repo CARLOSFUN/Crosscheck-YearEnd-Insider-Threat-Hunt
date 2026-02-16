@@ -11,7 +11,7 @@
 | **Hunt Name** | CrossCheck |
 | **Detection Platform** | Microsoft Defender for Endpoint |
 | **Query Language** | Kusto Query Language (KQL) |
-| **Operating Systems** | Windows 10 Enterprise / Windows Server 2019/2022 |
+| **Operating Systems** | Windows 10 Enterprise |
 | **Investigation Period** | December 1–31, 2025 |
 | **Report Generated** | February 16, 2026 |
 | **Classification** | Internal Use Only |
@@ -71,7 +71,7 @@ This investigation aligns to the following MITRE ATT&CK tactics and techniques:
 - **Alert Framework:** Custom detection rules + behavioral analytics
 
 ### Target Environment
-- **Operating Systems:** Windows 10 Enterprise (21H2), Windows Server 2019/2022
+- **Operating Systems:** Windows 10 Enterprise (21H2)
 - **Network Segment:** Corporate LAN (192.168.0.0/24)
 - **Affected Business Units:** Information Technology, Human Resources, Finance
 - **Domain:** Internal Active Directory environment
